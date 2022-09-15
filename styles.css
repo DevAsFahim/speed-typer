@@ -182,6 +182,23 @@ button {
   top: 0;
 }
 
+/* blog page  */
+.blog_container .blog{
+  padding-left: 20px;
+  box-shadow: 5px 5px 10px rgba(243, 240, 240, 0.079);
+  padding: 40px 30px;
+  background-color: rgb(189, 184, 184);
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.blog_container .blog_image {
+  width: 50vw;
+}
+.blog_container .container {
+  width: 1140px;
+  margin: 100px auto;
+}
+
 
 @media only screen and (max-width: 700px) {
   .box-container {
