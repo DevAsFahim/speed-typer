@@ -183,20 +183,33 @@ button {
 }
 
 /* blog page  */
+.blog_container{
+  padding: 80px 0;
+}
 .blog_container .blog{
   padding-left: 20px;
-  box-shadow: 5px 5px 10px rgba(243, 240, 240, 0.079);
+  box-shadow: 5px 5px 10px rgba(36, 35, 35, 0.781);
   padding: 40px 30px;
-  background-color: rgb(189, 184, 184);
+  background-color: rgba(0, 0, 0, 0.795);
   border-radius: 15px;
   margin-bottom: 20px;
+  color: #fff;
 }
 .blog_container .blog_image {
   width: 50vw;
+  margin-bottom: 30px;
 }
-.blog_container .container {
-  width: 1140px;
-  margin: 100px auto;
+.blog_container .blog_image img {
+  width: 100%;
+}
+.blog_container ul {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.blog_container .blog h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 
 
@@ -206,6 +219,9 @@ button {
     width: 100%;
   }
   .card {
+    width: 100%;
+  }
+  .blog_container .blog_image {
     width: 100%;
   }
 }

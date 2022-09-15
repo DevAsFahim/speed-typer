@@ -17,8 +17,18 @@
   <body>
     
     <section class="blog_container">
-        <div class="container">
-            
+        <div class="box-container">
+            <div class="blog">
+                <h1 class="blog_title">1. Difference between local storage and session storage</h1>
+                <div class="blog_image">
+                    <img src="localVsSession.jpg" alt="image">
+                </div>
+                <p class="blog_text mt-4">The HTTP protocol is one of the most important protocols for smooth communication between the server and the client. The main disadvantage of the HTTP protocol it is a stateless protocol that means it does not track any kind of information of response and request by the server and the client, So in order to resolve this problem, there are three ways to track useful information In this article we are going to see the difference between Local Storage and Session Storage. <br>
+                
+                    <strong>Local Storage: </strong>This read-only interface property provides access to the Document’s local storage object, the stored data is stored across browser sessions. Similar to sessionStorage, except that localStorage data gets cleared when the page session ends – that is when the page is closed. It is cleared when the last “private” tab of a browser is closed (localStorage data for a document loaded in a private browsing or incognito session). <br>
+                    <strong>Session Storage: </strong> Session Storage objects can be accessed using the sessionStorage read-only property. The difference between sessionStorage and localStorage is that localStorage data does not expire, whereas sessionStorage data is cleared when the page session ends.
+                </p>
+            </div>
         </div>
     </section>
 
